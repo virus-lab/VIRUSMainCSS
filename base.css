@@ -1,0 +1,131 @@
+
+.text-bold {
+    font-weight: 700;
+}
+
+.virus-body {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.virus-row {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.virus-body-content {
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.virus-menu {
+    border-right: 1px solid #EFEFEF;
+}
+
+a.virus-menu-item {
+    text-decoration: none;
+    color: #868E96;
+}
+
+.current-menu {
+    color: #FFFFFF;
+    background-color: #9500FF;
+    font-weight: 700;
+}
+
+.virus-button-style {
+    color: #9500FF;
+    border-color: #9500FF;
+}
+
+.virus-button-style.danger {
+    color: #FFFFFF;
+    background-color: #FF8112 !important;
+    border-color: #FF8112 !important;
+}
+
+.virus-button-style.safe {
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.virus-button-style:hover {
+    color: #FFFFFF !important;
+    background-color: #9500FF !important;
+    border-color: #9500FF !important;
+}
+
+.virus-button-style.danger:hover {
+    background-color: #FF0000 !important;
+    border-color: #FF0000 !important;
+}
+
+.virus-button-style:active {
+    color: #FFFFFF;
+    background-color: #9500FF !important;
+    border-color: #9500FF !important;
+    box-shadow: none !important;
+}
+
+.virus-button-style.danger:active {
+    box-shadow: none !important;
+}
+
+.virus-button-style.active {
+    color: #FFFFFF;
+    background-color: #9500FF !important;
+    border-color: #9500FF !important;
+    box-shadow: none !important;
+}
+
+.btn-link.virus-button-style {
+    border: none !important;
+}
+
+.btn-link.virus-button-style:hover {
+    border: none !important;
+    background-color: transparent !important;
+    color: #9500FF !important;
+}
+
+ul.virus-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.virus-list li.virus-list-item {
+    padding: 0.01rem !important;
+    margin: 1rem !important;
+    background-color: #9500FF !important;
+    border: 1px solid #9500FF;
+    border-radius: 7px;
+    box-shadow: 3px 5px 3px 2px #CFCFCF;
+}
+
+ul.virus-list li.virus-list-item .virus-list-item-info {
+    padding: 0.7rem !important;
+    background-color: #FFFFFF !important;
+    border: 1px solid #9500FF;
+    border-radius: 5px;
+}
+
+ul.virus-list li.virus-list-item .virus-list-item-info a {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+    .virus-menu {
+        border: none;
+    }
+}
